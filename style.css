@@ -53,3 +53,29 @@ img{
     top: 150px;
     font-size: 16px;
 }
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        /* border: 2px solid black; */
+        width: 80%;
+        position: relative;
+        bottom: 20px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 18px;
+        padding: 20px;
+    }
+    
+}
